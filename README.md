@@ -16,7 +16,7 @@ Webpage &amp; Indexer of #100DaysOfVue where can be found all projects made
 
 All projects listed here are optional, so you can feel free to get rid of some of those projects and make others either way.
 
-+ [ ] #1 Paypal Calculator PWA
++ [x] [#1 Paypal Calculator PWA](https://github.com/thousanddaysofvue/project1/)
 + [ ] #2 Functional Bingo 
 + [ ] #3 Tic-Tac-Toe
 + [ ] #4 Markdown Multi-editor
