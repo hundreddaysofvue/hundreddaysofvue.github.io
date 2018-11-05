@@ -30,7 +30,7 @@ All projects listed here are optional, so you can feel free to get rid of some o
 + [ ] #12 O'Clock
 + [ ] #13 Online CV
 + [ ] #14 Paper Planet
-+ [ ] #15 mylightbulb PWA
++ [x] [#15 mylightbulb](https://github.com/thousanddaysofvue/project15)
 + [ ] #16 JSON UI
 + [ ] #17 Github Analytics Client
 + [ ] #18 Wikipedia Search Engine
