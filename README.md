@@ -36,7 +36,7 @@ All projects listed here are optional, so you can feel free to get rid of some o
 + [ ] #18 Wikipedia Search Engine
 + [ ] #19 Show The Local Weather
 + [ ] #20 Random Quote Machine
-+ [ ] #21 Coelho.js
++ [x] [#21 Coelho.js](https://github.com/thousanddaysofvue/project21)
 + [ ] #22 Reddit Clone
 + [ ] #23 Capturameste (it means "Capture this" in English)*
 + [ ] #24 FCC Picks bot
