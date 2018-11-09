@@ -27,7 +27,7 @@ All projects listed here are optional, so you can feel free to get rid of some o
 + [ ] #9 Students and Records
 + [ ] #10 Front ATM
 + [ ] #11 Notebook PWA
-+ [ ] #12 O'Clock
++ [x] [#12 O'Clock](https://github.com/thousanddaysofvue/project12)
 + [ ] #13 Online CV
 + [ ] #14 Paper Planet
 + [x] [#15 mylightbulb](https://github.com/thousanddaysofvue/project15)
@@ -67,7 +67,7 @@ All projects listed here are optional, so you can feel free to get rid of some o
 + [ ] #49 It's a Trump!
 + [ ] #50 Super Virtual G
 
-\**but it is also a pun in Spanish ;)*
+\* *but it is also a pun in Spanish ;)*
 
 ## Additional commitments
 
