@@ -185,8 +185,8 @@ new Vue({
       },
       {
         name: 'WATL (Why Another To-do List)',
-        done: false,
-        url: null
+        done: true,
+        url: '/watl/'
       },
       {
         name: 'WAFTL (Why Another Functional To-do List)',
