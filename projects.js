@@ -126,7 +126,7 @@ new Vue({
       {
         name: 'Coelho.js',
         done: true,
-        url: '/project21/'
+        url: '/coelho-js/'
       },
       {
         name: 'Reddit Clone',
