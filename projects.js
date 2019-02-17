@@ -81,7 +81,7 @@ new Vue({
       {
         name: 'O’Clock',
         done: true,
-        url: '/project12/'
+        url: '/o-clock/'
       },
       {
         name: 'Online CV',
