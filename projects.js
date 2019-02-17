@@ -1,27 +1,32 @@
 new Vue({
   el: '#app',
-  template: `<div><div class="flex" v-for="(project, index) in projects" :key="index">
-        <div class="checkbox">
-          <input
-            type="checkbox"
-            value="1"
-            id="cb"
-            name=""
-            disabled
-            :checked="project.done"
-          />
-          <label for="cb"></label>
-        </div>
-        <a v-if="project.url" :href="getURL(project.url)" target="_blank" class="tag">{{ index + 1 }}. {{ project.name }}</a>
-        <span v-else>{{ index + 1 }}. {{ project.name }}</span>
-        </div></div>`,
+  template:
+  `<div>
+    <div class="flex" v-for="(project, index) in projects" :key="index">
+      <div class="checkbox">
+        <input
+          type="checkbox"
+          value="1"
+          id="cb"
+          name=""
+          disabled
+          :checked="project.done"
+        />
+        <label for="cb"></label>
+      </div>
+      <a v-if="project.url" :href="getURL(project.url)" target="_blank" class="tag">{{ index + 1 }}. {{ project.name }}</a>
+      <span v-else>{{ index + 1 }}. {{ project.name }}</span>&nbsp;&nbsp;
+      <a v-show="project.done" :href="getAppURL(project.url)" target="_blank">[🌎]</a>
+    </div>
+  </div>`,
   data: {
     baseURL: 'https://github.com/hundreddaysofvue',
+    appURL: 'https://hundreddaysofvue.github.io',
     projects: [
       {
         name: 'Paypal Calculator PWA',
         done: true,
-        url: '/project1/'
+        url: '/paypal-calculator/'
       },
       {
         name: 'Functional Bingo',
@@ -273,6 +278,9 @@ new Vue({
   methods: {
     getURL(projectName) {
       return `${this.baseURL}${projectName}`
+    },
+    getAppURL(projectName) {
+      return `${this.appURL}${projectName}`
     }
   }
 })
