@@ -96,7 +96,7 @@ new Vue({
       {
         name: 'mylightbulb',
         done: true,
-        url: '/project15/'
+        url: '/mylightbulb/'
       },
       {
         name: 'JSON UI',
