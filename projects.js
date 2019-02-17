@@ -199,9 +199,9 @@ new Vue({
         url: null
       },
       {
-        name: 'Table Generator Component',
-        done: false,
-        url: null
+        name: 'Color Palette Generator',
+        done: true,
+        url: '/color-palette-generator/'
       },
       {
         name: 'Slot Machine Game',
