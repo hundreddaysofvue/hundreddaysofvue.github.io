@@ -7,7 +7,7 @@ Webpage &amp; Indexer of #100DaysOfVue where can be found all projects made
 1. Each project MUST be developed on at least two consecutive days (recommended on weekends).
 2. Each project MUST be [JAMStack](https://jamstack.org/) (Javascript + API + Markup) using [Vue Framework](https://vuejs.org/).
 3. Each project MUST have its own repository on Github, under the same organization.
-4. Each project MUST be accessed from the URL: [https://thousanddaysofvue.github.io/project(number)](https://thousanddaysofvue.github.io)
+4. Each project MUST be accessed from the URL: `https://<organizationURL>/<projectName>`
 5. Each project CAN use [LocalStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage) as local database (if applicable).
 6. Each project, if requires some kind of external storage, SHOULD be using [JEXIA](https://jexia.com/).
 7. Each project MUST be documented with a README.md file, explaining what they need for its operation and what was learned during the process.
