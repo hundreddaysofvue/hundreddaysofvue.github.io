@@ -1,6 +1,6 @@
 :root {
   --dark-vue: #334559;
-  --light-vue: #3EAD7B; 
+  --light-vue: #3EAD7B;
 }
 
 * {
@@ -43,7 +43,7 @@ img {
 }
 
 input[type=checkbox] {
-    visibility: hidden;
+  visibility: hidden;
 }
 
 li {
@@ -102,6 +102,7 @@ strong {
   left: 27px;
   background: var(--light-vue);
 }
+
 .flex {
   margin: .5rem 0;
   display: flex;
