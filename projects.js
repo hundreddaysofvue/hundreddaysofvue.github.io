@@ -3,17 +3,13 @@ new Vue({
   template:
   `<div>
     <div class="flex" v-for="(project, index) in projects" :key="index">
-      <div class="checkbox">
-        <input
-          type="checkbox"
-          value="1"
-          id="cb"
-          name=""
-          disabled
-          :checked="project.done"
-        />
-        <label for="cb"></label>
-      </div>
+      <input
+        type="checkbox"
+        id="toggle"
+        disabled
+        class="offscreen"
+        :checked="project.done"
+      /><label for="toggle" class="switch"></label>
       <a v-if="project.url" :href="getURL(project.url)" target="_blank" class="tag">{{ index + 1 }}. {{ project.name }}</a>
       <span v-else>{{ index + 1 }}. {{ project.name }}</span>&nbsp;&nbsp;
       <a v-show="project.done" :href="getAppURL(project.url)" target="_blank">[🌎]</a>
